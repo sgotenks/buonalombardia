@@ -225,6 +225,8 @@
 
 	.carousel.variante2 .carousel-navigation-buttons button::after {
 		border: 5px white solid;
+		border-bottom: 0;
+  		border-left: 0;
 	}
 
 	.carousel.variante2 .carousel-navigation-buttons button {
