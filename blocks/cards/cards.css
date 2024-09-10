@@ -105,3 +105,10 @@
 .cards > ul > li {
     border: 0px;
 }
+
+.cards.divisore{
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+    border-bottom: 10px solid;
+    border-bottom-color: #003366 !important;
+}
