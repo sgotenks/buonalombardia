@@ -177,7 +177,7 @@ h1 {
     text-align: center;
 }
 
-.attachments.block div div {
+.attachments.block div:nth-child(1) {
     width: 80px;
     float: left;
 }
