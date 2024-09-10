@@ -194,6 +194,7 @@ h1 {
 
 .attachments.block div {
     display: inline-flex;
+    width: 100%;
 
 }
 
