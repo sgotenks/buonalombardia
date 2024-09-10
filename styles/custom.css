@@ -133,7 +133,7 @@ h1 {
 }
 
 .update-and-print .columns img {
-    width: auto;
+    width: auto !important;
 }
 
 .update-and-print .columns-img-col{
