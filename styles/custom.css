@@ -157,6 +157,16 @@ h1 {
 .footer ul li {
     margin-bottom: 20px;
     font-size: 20px;
+    font-weight: bold;
+}
+
+.footer ul li:hover {
+    text-decoration: underline;
+}
+
+.footer .columns-4-cols {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
   
