@@ -247,7 +247,29 @@
 		line-height: 1.2;
 		font-family: 'Titillium Web', sans-serif;
 	}
+
+	.carousel.variante2 .carousel-slide-indicator button {
+		background-color: #fff;
+		border-radius: 0;
+		-webkit-box-shadow: none;
+		border: 3px solid #fff;
+		width: 15px;
+		height: 15px;
+		opacity: 1;
+	}
 	
+	.carousel.variante2 .carousel-slide-indicator button:disabled, 
+	.carousel.variante2 .carousel-slide-indicator button:hover, 
+	.carousel.variante2 .carousel-slide-indicator button:focus-visible {
+	    background-color: #004a4d;
+	}
+
+	.carousel.variante2 .carousel-slide-indicators {
+		position: relative;
+		bottom: 50px;
+		left: -25%;
+		z-index: 1;
+	}
 }
 
 
