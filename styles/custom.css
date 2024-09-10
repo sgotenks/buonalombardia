@@ -192,7 +192,7 @@ h1 {
     padding: 0;
 }
 
-.attachments.block {
+.attachments.block div {
     display: inline-flex;
 
 }
