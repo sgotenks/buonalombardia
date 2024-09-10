@@ -177,6 +177,10 @@ h1 {
     text-align: center;
 }
 
+.attachments.block div div {
+    width: 80px;
+    float: left;
+}
   
     
 
