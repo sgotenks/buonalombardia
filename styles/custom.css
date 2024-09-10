@@ -181,6 +181,14 @@ h1 {
     width: 80px;
     float: left;
 }
+
+.attachments.block div div a {
+    text-decoration: none;
+    color: #003366;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
   
     
 
