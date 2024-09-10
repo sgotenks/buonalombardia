@@ -169,6 +169,9 @@
   }
 }
 
+
+/** Variante Lombardia Notizie **/
+
 .carousel.variante1 .carousel-slide{
 	flex-direction: inherit;
 	align-items: normal;
@@ -195,5 +198,32 @@
     padding: 0;
     background-color: transparent;
 }
+
+
+/** Variante Buonalombardia **/
+
+.carousel.variante2 .carousel-slide .carousel-slide-content {
+    background-color: rgba(0, 51, 102, 0.8);
+}
+
+@media (width >= 600px) {
+    .carousel.variante2 .carousel-slide .carousel-slide-content {
+        --slide-content-width: 50%;
+        margin: 0;
+	height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
