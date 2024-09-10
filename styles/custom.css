@@ -187,11 +187,18 @@ h1 {
     color: #003366;
     font-size: 26px;
     font-weight: bold;
-    margin-bottom: 0;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+.attachments.block {
+    display: inline-flex;
+
 }
 
 .breadcrumb-container ul li {
-    margin-bottom: 30px;;
+    margin-bottom: 30px;
 }
   
     
