@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 24px;
 }
 
@@ -76,4 +76,32 @@
 
 .cards.variante2{
     max-width: 260px;
+}
+
+
+
+.section-siti-utili a:hover .item-title, .section-siti-utili a:focus .item-title {
+    text-decoration: underline;
+}
+
+
+
+.cards.divisore h3{
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.1em;
+    font-size: 31px;
+    color: #003366;
+}
+.cards.divisore a:any-link {
+    color: #003366;  
+}
+
+.cards.divisore p{
+    color: #003366;
+    line-height: 1.5em;
+}
+
+.cards > ul > li {
+    border: 0px;
 }
