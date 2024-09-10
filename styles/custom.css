@@ -136,3 +136,8 @@ h1 {
     width: auto !important;
 }
 
+.update-and-print .columns-img-col {
+    text-align: -webkit-right;
+}
+
+
