@@ -272,8 +272,8 @@
 	}
 
 	.carousel-wrapper{
-		padding: 0;
-		max-width: initial;
+		padding: 0!important;
+		max-width: initial!important;
 	}
 }
 
