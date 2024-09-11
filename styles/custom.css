@@ -201,6 +201,12 @@ h1 {
 .breadcrumb-container ul li {
     margin-bottom: 30px;
 }
+
+
+.articolo .hero-container .hero-wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
   
     
 
