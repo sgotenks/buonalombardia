@@ -213,7 +213,11 @@ h1 {
 }
 
 .articolo .hero picture {
-    position: absolute;
+    position: relative;
+}
+
+.articolo .hero h1 {
+    font-size: 25px;
 }
 
 @media (width >= 900px) {
@@ -222,7 +226,7 @@ h1 {
     }
 
     .articolo .hero picture {
-        position: relative;
+        position: absolute;
     }
 
     .articolo .hero picture, .articolo .hero h1 {
@@ -238,6 +242,7 @@ h1 {
     .articolo .hero h1 {
         float: right;
         padding-left: 20px;
+        font-size: 45px;
     }
 
 
