@@ -254,11 +254,11 @@ h1 {
 
   .nav-brand a {
     font-size: 36px;
-    color: #003366;
+    color: #003366 !important;
   }
 
-  .nav-brand {
-    flex-basis: 300px;
+  header .nav-brand {
+    flex-basis: 300px !important;
   }
   
     
