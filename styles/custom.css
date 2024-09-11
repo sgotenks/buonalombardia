@@ -190,6 +190,11 @@ h1 {
     background: none;
     margin: 0;
     padding: 0;
+    background: url(https://main--buonalombardia--sgotenks.aem.page/articoli/media_1cb9c98….png?width=2000&format=webply&optimize=medium);
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    padding-top: 10px;
+    height: 55px;
 }
 
 .attachments.block div {
