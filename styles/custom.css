@@ -212,9 +212,17 @@ h1 {
     color: #003366;
 }
 
+.articolo .hero picture {
+    position: absolute;
+}
+
 @media (width >= 900px) {
     .articolo .hero {
       padding: 0;
+    }
+
+    .articolo .hero picture {
+        position: relative;
     }
 
     .articolo .hero picture, .articolo .hero h1 {
