@@ -208,6 +208,10 @@ h1 {
     margin: auto;
 }
 
+.articolo .hero-container .hero-wrapper h1 {
+    color: #003366;
+}
+
 @media (width >= 900px) {
     .articolo .hero {
       padding: 0;
@@ -217,7 +221,7 @@ h1 {
         width: 50%;
     }
 
-    
+
   }
   
     
