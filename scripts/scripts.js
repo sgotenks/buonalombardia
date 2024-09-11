@@ -73,7 +73,7 @@ function buildAutoBlocks(main) {
   try {
     
       buildHeroBlock(main);
-      buildYoutubeBlock(main);
+      //buildYoutubeBlock(main);
 
   } catch (error) {
     // eslint-disable-next-line no-console
