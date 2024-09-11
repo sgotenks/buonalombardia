@@ -29,6 +29,10 @@ function buildHeroBlock(main) {
   }
 }
 
+function buildHeadArticle(main) {
+  console.log("buildHeadArticle run - 1 ");
+}
+
 /**
  * load fonts.css and set a session storage flag
  */
@@ -48,6 +52,7 @@ async function loadFonts() {
 function buildAutoBlocks(main) {
   try {
     buildHeroBlock(main);
+    buildHeadArticle(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
