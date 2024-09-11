@@ -212,6 +212,12 @@ h1 {
     .articolo .hero {
       padding: 0;
     }
+
+    .articolo .hero picture, .articolo .hero h1 {
+        width: 50%;
+    }
+
+    
   }
   
     
