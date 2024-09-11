@@ -251,6 +251,15 @@ h1 {
     }
 
   }
+
+  .nav-brand a {
+    font-size: 36px;
+    color: #003366;
+  }
+
+  .nav-brand {
+    flex-basis: 300px;
+  }
   
     
 
