@@ -241,6 +241,11 @@
 		line-height: 1;
 	}
 
+	a:any-link {
+	    color: #fff;
+	}
+	
+
 	.carousel.variante2 .carousel-slide-content p{
 		font-size: 24px;
 		font-weight: 300;
