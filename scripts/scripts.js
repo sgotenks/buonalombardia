@@ -33,7 +33,7 @@ function buildYoutubeBlock(main) {
   var links = document.getElementsByTagName('a'), hrefs = [];
   for (var i = 0; i < links.length; i++)
     {   
-        if (links[i].href.includes("youtube.com")) {
+        if (links[i].href.includes("youtube.com"))  {
           
           var videoUrl = '<iframe width="900" height="506" src="https://www.youtube.com/embed/-SBvzjomx5M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';       
           const video = document.createElement('div');
