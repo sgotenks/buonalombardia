@@ -45,8 +45,7 @@ function buildYoutubeBlock(main) {
     </div>`;
 
           document.querySelectorAll('[href="https://www.youtube.com/watch?v='+vUrl+'"]')[0].replaceWith(temp.children.item(0));          
-          hrefs.push(links[i].href);
-          console.log(links[i].href);
+
         }
 
     }
@@ -73,11 +72,9 @@ async function loadFonts() {
 function buildAutoBlocks(main) {
   try {
     
-    var pageTheme = document.querySelector("meta[name='theme']").getAttribute("content");
-    console.log(pageTheme);
+      buildHeroBlock(main);
+      buildYoutubeBlock(main);
 
-    buildHeroBlock(main);
-    buildYoutubeBlock(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
