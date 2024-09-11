@@ -29,8 +29,14 @@ function buildHeroBlock(main) {
   }
 }
 
-function buildHeadArticle(main) {
-  console.log("buildHeadArticle run - 1 ");
+function buildYoutubeBlock(main) {
+  var links = document.getElementsByTagName('a'), hrefs = [];
+  for (var i = 0; i < links.length; i++)
+    {   
+        hrefs.push(links[i].href);
+        console.log(links[i].href);
+    }
+  console.log("buildYoutubeBlock");
 }
 
 /**
@@ -52,7 +58,7 @@ async function loadFonts() {
 function buildAutoBlocks(main) {
   try {
     buildHeroBlock(main);
-    buildHeadArticle(main);
+    buildYoutubeBlock(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
