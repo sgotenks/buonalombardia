@@ -220,14 +220,16 @@ h1 {
     .articolo .hero picture, .articolo .hero h1 {
         width: 50%;
         margin: 0;
-    }
+        box-sizing: border-box;
 
+    }
     .articolo .hero picture {
         float: left;
     }
 
     .articolo .hero h1 {
         float: right;
+        padding-left: 20px;
     }
 
 
