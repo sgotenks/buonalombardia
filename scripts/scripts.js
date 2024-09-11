@@ -73,7 +73,7 @@ async function loadFonts() {
 function buildAutoBlocks(main) {
   try {
     
-    console.log(main.document.querySelector("meta[name='theme']").getAttribute("content"));
+    console.log(main.querySelector("meta[name='theme']").getAttribute("content"));
 
 
     buildHeroBlock(main);
