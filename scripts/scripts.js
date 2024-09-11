@@ -14,7 +14,14 @@ import {
   sampleRUM,
 } from './aem.js';
 
-
+window.hlx.plugins.add('experimentation', {
+  condition: () => getMetadata('experiment')
+    || Object.keys(getAllMetadata('campaign')).length
+    || Object.keys(getAllMetadata('audience')).length,
+  options: { audiences: AUDIENCES },
+  load: 'eager',
+  url: '/plugins/experimentation/src/index.js',
+});
 
 /**
  * Builds hero block and prepends to main in a new section.
