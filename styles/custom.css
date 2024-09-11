@@ -182,7 +182,7 @@ h1 {
     float: left;
 }
 
-.attachments.block div div a {
+.attachments.block div div a, .articolo .button-container a  {
     text-decoration: none;
     color: #003366;
     font-size: 26px;
@@ -244,7 +244,6 @@ h1 {
         padding-left: 20px;
         font-size: 45px;
     }
-
 
   }
   
