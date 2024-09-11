@@ -34,8 +34,14 @@ function buildYoutubeBlock(main) {
   for (var i = 0; i < links.length; i++)
     {   
         if (links[i].href.includes("youtube.com")) {
+          
+          var videoUrl = '<iframe width="900" height="506" src="https://www.youtube.com/embed/-SBvzjomx5M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';       
+          var video = document.createElement(videoUrl);
+          document.querySelectorAll('[href="https://www.youtube.com/watch?v=-SBvzjomx5M"]')[0].replaceWith(video);
+          
           hrefs.push(links[i].href);
           console.log(links[i].href);
+
         }
 
     }
