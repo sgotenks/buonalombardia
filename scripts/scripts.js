@@ -34,13 +34,14 @@ function buildYoutubeBlock(main) {
   for (var i = 0; i < links.length; i++)
     {   
         if (links[i].href.includes("youtube.com"))  {
-          
-          var videoUrl = '<iframe width="900" height="506" src="https://www.youtube.com/embed/-SBvzjomx5M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';       
-          const video = document.createElement('div');
-          var blockVideo = videoUrl;
-          video.append(blockVideo);
-          
-          document.querySelectorAll('[href="https://www.youtube.com/watch?v=-SBvzjomx5M"]')[0].replaceWith(video);
+               
+          const temp = document.createElement('div');
+         temp.innerHTML = `<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
+      <iframe src="https://www.youtube.com/embed/-SBvzjomx5M" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" 
+      allow="autoplay; fullscreen; picture-in-picture; encrypted-media; accelerometer; gyroscope; picture-in-picture" allowfullscreen="" scrolling="no" title="Content from Youtube" loading="lazy"></iframe>
+    </div>`;
+
+         document.querySelectorAll('[href="https://www.youtube.com/watch?v=-SBvzjomx5M"]')[0].replaceWith(temp.children.item(0));
           
           hrefs.push(links[i].href);
           console.log(links[i].href);
