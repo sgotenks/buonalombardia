@@ -217,7 +217,7 @@ h1 {
 }
 
 .articolo .hero h1 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 @media (width >= 900px) {
