@@ -222,6 +222,14 @@ h1 {
         margin: 0;
     }
 
+    .articolo .hero picture {
+        float: left;
+    }
+
+    .articolo .hero h1 {
+        float: right;
+    }
+
 
   }
   
