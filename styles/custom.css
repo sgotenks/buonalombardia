@@ -260,6 +260,19 @@ h1 {
   header .nav-brand {
     flex-basis: 300px !important;
   }
+
+header .breadcrumbs ol li[aria-current] {
+    font-size: 17px;
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+}
+
+header .breadcrumbs ol li {
+    font-size: 17px;
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+}
   
     
 
