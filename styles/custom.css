@@ -273,7 +273,10 @@ header .breadcrumbs ol li {
     color: black;
     font-family: 'Titillium Web', sans-serif;
 }
-  
+
+.articolo main{
+    padding-top: 50px;
+}
     
 
 
