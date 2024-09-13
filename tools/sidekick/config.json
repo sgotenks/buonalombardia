@@ -8,13 +8,6 @@
       "url": "https://main--buonalombardia--sgotenks.hlx.page/tools/sidekick/library.html",
       "includePaths": [ "**.docx**" ]
     },
-     {
-      "id": "library2",
-      "title": "Library Blocks",
-      "environments": [ "dev", "edit" ],
-      "url": "https://main--buonalombardia--sgotenks.hlx.page/tools/sidekick/library.html",
-      "includePaths": [ "**.docx**" ]
-    },
     {
       "id": "asset-library",
       "title": "AEM Assets Library",
